@@ -6,12 +6,12 @@ import Detail from "./pages/Detail.jsx"
 function App() {
     return (
         <BrowserRouter>
-        <Routes>
-            <Route path={"/"} element={<Home />} />
-            <Route path={"/search"} element={<Search />} />
-            <Route path={`/detail/:id`} element={<Detail />} />
-        </Routes>
-    </BrowserRouter>
+            <Routes>
+                <Route path={"/"} element={<Home />} />
+                <Route path={"/search"} element={<Search />} />
+                <Route path={`/detail/:id`} element={<Detail />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
